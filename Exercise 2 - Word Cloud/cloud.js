@@ -1,7 +1,7 @@
 const textContainer = document.getElementById("myParagraph");
 
 // Split the text into words and remove punctuation and special characters
-const wordsArray = textContainer.innerText.toLowerCase().split(/\W+/);
+const wordsArray = textContainer.innerText.split(/\W+/);
 
 // Count the occurrences of each word using an object (wordNumberOfCount)
 const wordNumberOfCount = {};
