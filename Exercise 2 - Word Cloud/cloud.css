@@ -1,4 +1,105 @@
-#myWordCloud {
-    color: red;
-    font-size: 64px;
+body {
+    margin: auto;
+    padding: 50px;
 }
+#myWordCloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    position: relative;
+  }
+  
+  #myWordCloud span {
+    margin: 5px;
+    padding: 3px 10px;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    position: absolute;
+  }
+  
+  #myWordCloud span:nth-child(1) {
+    font-size: 64px;
+    left: 40%;
+    top: 30%;
+    color: #ff0000;
+  }
+  
+  #myWordCloud span:nth-child(2) {
+    font-size: 60px;
+    left: 55%;
+    top: 35%;
+    color: #00ff00;
+  }
+  
+  #myWordCloud span:nth-child(3) {
+    font-size: 56px;
+    left: 30%;
+    top: 40%;
+    color: #0000ff;
+  }
+  
+  #myWordCloud span:nth-child(4) {
+    font-size: 52px;
+    left: 50%;
+    top: 45%;
+    color: #ff00ff;
+  }
+  
+  #myWordCloud span:nth-child(5) {
+    font-size: 48px;
+    left: 25%;
+    top: 50%;
+    color: #ffff00;
+  }
+  
+  #myWordCloud span:nth-child(6) {
+    font-size: 44px;
+    left: 45%;
+    top: 55%;
+    color: #00ffff;
+  }
+  
+  #myWordCloud span:nth-child(7) {
+    font-size: 40px;
+    left: 60%;
+    top: 60%;
+    color: #ff8800;
+  }
+  
+  #myWordCloud span:nth-child(8) {
+    font-size: 36px;
+    left: 35%;
+    top: 65%;
+    color: #8800ff;
+  }
+  
+  #myWordCloud span:nth-child(9) {
+    font-size: 32px;
+    left: 52%;
+    top: 70%;
+    color: #00ff88;
+  }
+  
+  #myWordCloud span:nth-child(10) {
+    font-size: 28px;
+    left: 27%;
+    top: 75%;
+    color: #ff0088;
+  }
+  
+  #myWordCloud span:nth-child(11) {
+    font-size: 24px;
+    left: 42%;
+    top: 80%;
+    color: #0088ff;
+  }
+  
+  #myWordCloud span:nth-child(12) {
+    font-size: 20px;
+    left: 58%;
+    top: 85%;
+    color: #888888;
+  }
+  
